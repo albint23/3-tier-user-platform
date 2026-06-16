@@ -36,7 +36,7 @@ jobs:
           name: gitleaks-report
           path: gitleaks-report.json
           if-no-files-found: warn
-    checkov-dockerfile:
+  checkov-dockerfile:
     name: Checkov Dockerfile Scan
     runs-on: ubuntu-latest
     needs: gitleaks-scan
