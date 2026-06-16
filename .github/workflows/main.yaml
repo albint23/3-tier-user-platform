@@ -167,9 +167,9 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - client-trivy-fs
-      - checkov-k8s
+      
       - checkov-dockerfile
-      - checkov-terraform
+      
 
     defaults:
       run:
@@ -198,9 +198,9 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - server-trivy-fs
-      - checkov-k8s
+      
       - checkov-dockerfile
-      - checkov-terraform
+      
 
     defaults:
       run:
