@@ -1,4 +1,4 @@
-# Enterprise DevSecOps CI/CD Pipeline
+# DevSecOps CI/CD Pipeline
 
 ## Overview
 
